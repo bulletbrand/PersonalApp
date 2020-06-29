@@ -1,0 +1,52 @@
+.navbar {
+    background: rgb(20, 20, 20);
+    padding: 15px 0 15px 0;
+    color: red;
+    border-bottom: 2px solid rgb(90, 149, 189);
+    box-shadow: 4px 6px 2px rgba(151, 202, 223, 0.2);
+}
+
+.navbar li a {
+    color: rgb(109, 172, 214);
+    border-bottom: 2px solid transparent;
+}
+
+.navbar li+li {
+    margin-left: 60px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid rgb(90, 149, 189);
+}
+
+.nav.navbar-nav {
+    margin-right: 200px;
+}
+
+.logo img {
+    width: 90px;
+    background: rgb(20, 20, 20);
+    cursor: pointer;
+    animation: pulsing 3s infinite;
+    box-shadow: 4px 4px 16px rgba(106, 197, 240, 0.2);
+}
+
+.navbar a.active {
+    box-shadow: 0px 8px 10px rgba(106, 197, 240, 0.2);
+}
+
+
+
+@keyframes pulsing {
+    0% {
+        transform: scale(0.9, 0.9)
+    }
+
+    50% {
+        transform: scale(1.0, 1.0);
+    }
+
+    100% {
+        transform: scale(0.9, 0.9);
+    }
+}
