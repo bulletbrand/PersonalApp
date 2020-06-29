@@ -36,7 +36,7 @@ const Footer = () => {
 
       <div className="footer-copyright text-center py-3">
         © 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> AlleksandrMatyka@gmail.com</a>
+        <a href="#"> AlleksandrMatyka@gmail.com</a>
       </div>
     </footer>
   )

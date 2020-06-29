@@ -9,5 +9,9 @@ footer {
 
 footer a i:hover {
     cursor: pointer;
-    color: blue;
+    color: rgb(90, 149, 189);
+}
+
+.footer-copyright a {
+    color: rgb(90, 149, 189);
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './all-books.css'
-
+//просто заглушка пока
 const AllBooks = () => {
   const data = Array(3)
     .fill(4)
@@ -10,9 +10,7 @@ const AllBooks = () => {
           <div className="card">
             <div className="card-body">
               <h4 className="card-title">Jane Doe</h4>
-              <p className="card-text">
-                Some example text some example text. Jane Doe is an architect and engineer
-              </p>
+              <p className="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
               <a href="#" className="btn btn-primary">
                 See Profile
               </a>
