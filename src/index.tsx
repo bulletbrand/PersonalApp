@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Main from './components/main/main'
-import ErrorBoundry from './components/error-boundry/error-boundry'
+import Main from './Сomponents/Main/Main'
+import ErrorBoundry from './Сomponents/Error-boundry/Error-boundry'
 import { Provider } from 'react-redux'
 import { BrowserRouter as Router } from 'react-router-dom'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import store from './store'
 
 import './index.css'

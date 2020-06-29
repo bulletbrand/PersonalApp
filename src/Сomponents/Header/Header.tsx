@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from 'img/logo.png'
-import Toogler from '../toogler/toogler'
+import logo from 'images/logo.png'
 import './header.css'
 
 const Header = () => {
@@ -28,17 +27,19 @@ const Header = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/sign-up" className="nav-link">
-              Sign up
+            <NavLink to="/favorite-item" className="nav-link">
+              Favorite item
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/sign-in" className="nav-link">
-              Sign in
+            <NavLink to="/register" className="nav-link">
+              Register
             </NavLink>
           </li>
           <li className="nav-item">
-            <Toogler />
+            <NavLink to="/log-in" className="nav-link">
+              Log in
+            </NavLink>
           </li>
         </ul>
       </div>
